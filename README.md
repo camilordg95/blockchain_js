@@ -7,6 +7,11 @@ para replicar este proyecto es nesesario contar con nodejs y git
 
 se crea una carpeta local donde se iniciara el proyecto:
 desde la raiz del proyecto ejecutamos los siguientes comandos
+#nodjs
+para instalar jod js solo basta cin ir a esta pagina y descargar para el so que se este usando:
+https://nodejs.org/es/download/ 
+
+Para crear el proyecto vamos a iniciar una carpeta que contendra el proyecto y desde esa raiz se ejecutaran los siguientes pasos:
 
 # Inicializamos el control de versiones
 ```bash
