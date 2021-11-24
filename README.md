@@ -7,19 +7,22 @@ para replicar este proyecto es nesesario contar con nodejs y git
 
 se crea una carpeta local donde se iniciara el proyecto:
 desde la raiz del proyecto ejecutamos los siguientes comandos
-```bash
+
 # Inicializamos el control de versiones
+```bash
 $ git init
 $ git remote add origin url repocitorio en git
-
+```
 # Inicializamos el proyecto con NPM 
+Esto creará un fichero llamado package.json que contendrá toda la información del proyecto.
+l parámetro -y de npm init omite el asistente interactivo, creando el package.json con los valores por defecto directamente y sin preguntarnos. Si prefieres utilizar el asistente, omite ese parámetro.
+```bash
 $ npm init -y
-# Esto creará un fichero llamado package.json que contendrá toda la información del proyecto.
-#El parámetro -y de npm init omite el asistente interactivo, creando el package.json con los valores por defecto directamente y sin preguntarnos. Si prefieres utilizar el asistente, omite ese parámetro.
-#luego usaremos el comando para instalar la libreria de js que nos permitira trabajar con las cadenas de bloques 
+```
+luego usaremos el comando para instalar la libreria de js que nos permitira trabajar con las cadenas de bloques 
+```bash
 npm install crypto-js --save
 ```
-
 
 ### Clase Block
 
