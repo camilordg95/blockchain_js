@@ -2,9 +2,28 @@
 
 # Contenido
 Dentro del desarrollo de componente se crearon diferentes clases y métodos los cuales se realiza una creacion de blockchain con javascript
+
+para replicar este proyecto es nesesario contar con nodejs y git 
+
+se crea una carpeta local donde se iniciara el proyecto:
+desde la raiz del proyecto ejecutamos los siguientes comandos
+```bash
+# Inicializamos el control de versiones
+$ git init
+$ git remote add origin url repocitorio en git
+
+# Inicializamos el proyecto con NPM 
+$ npm init -y
+# Esto creará un fichero llamado package.json que contendrá toda la información del proyecto.
+#El parámetro -y de npm init omite el asistente interactivo, creando el package.json con los valores por defecto directamente y sin preguntarnos. Si prefieres utilizar el asistente, omite ese parámetro.
+#luego usaremos el comando para instalar la libreria de js que nos permitira trabajar con las cadenas de bloques 
+npm install crypto-js --save
+```
+
+
 ### Clase Block
 
-En esta clase se reliza la creacion de un bloque usando una libreria de javascript (sha256):
+En esta clase se reliza la creacion de un bloque usando una libreria de javascript (crypto-js) la cual se instaciara con la el nombre de sha256:
 
 ```bash
  const SHA256 = require(['crypto-js/sha256']);
