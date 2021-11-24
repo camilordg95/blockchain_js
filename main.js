@@ -31,3 +31,8 @@ class BlockChain{
 		this.chain.push(block);
 	}
 }
+
+let mainCoin = new BlockChain('info genesis');
+mainCoin.addBlock('primer cadena');
+mainCoin.addBlock('segunda cadena');
+console.log(JSON.stringify(mainCoin.chain,null,2));
