@@ -87,7 +87,6 @@ mainCoin.addBlock('segunda cadena');
 console.log(JSON.stringify(mainCoin.chain,null,2));
 ```
 
-### agregando cadenas bloques
 desde la rais del proyecto ejecutamos el comando:
 ```bash
 node main.js
